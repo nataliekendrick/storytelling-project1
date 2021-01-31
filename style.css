@@ -1,0 +1,22 @@
+body{
+	background-color: black; 
+	color: white;
+	font-family: Didot LT Pro; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 135px;
+	text-align: center;
+	top:100px;
+}
+
+.content a {
+  text-decoration: none;
+  transition: all .03s ease;
+  color: black;
+  border-bottom: 1px solid red;
+}
+.content a:hover {
+  color: red;
+  border-bottom: 1px dotted red;
+}
